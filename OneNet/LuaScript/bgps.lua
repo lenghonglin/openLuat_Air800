@@ -180,7 +180,7 @@ local function gpsInit()
   gps.setnemamode(0)
   --如果需要GPS的时间来同步模块时间，则打开下面这行注释的代码
   --gps.settimezone(gps.GPS_BEIJING_TIME)
-  gps_open()
+  --gps_open()
 end
 
 sys.timer_start(gpsInit,1000)
