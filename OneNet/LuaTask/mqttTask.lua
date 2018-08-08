@@ -69,7 +69,7 @@ sys.taskInit(
             		log.info("onenet send","success")
             	else
             		log.info("onenet send","failed")
-            		
+                end
             	sys.wait(20000)
             end
             --断开MQTT连接
